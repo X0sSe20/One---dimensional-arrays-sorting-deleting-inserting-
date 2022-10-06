@@ -21,7 +21,7 @@ int main() {
     cout << endl;
 
     for (int i = N-1; i >= 0; i--) {             //Нахождение индекса последнего четного элемента
-        if (arr_A[i] % 2 == 0) {
+        if (arr_A[i] % 2 == 0 && arr_A[i] != 0) {
             tmp_i = i;
             break;
         }
